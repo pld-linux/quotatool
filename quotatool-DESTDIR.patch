@@ -1,0 +1,13 @@
+--- Makefile~	2003-09-29 12:48:59.000000000 +0000
++++ Makefile	2003-09-29 12:49:20.000000000 +0000
+@@ -65,8 +65,8 @@
+ men   :=   $(wildcard $(srcdir)/man/*)
+ install: $(prog)
+ 	$(NORMAL_INSTALL)
+-	$(INSTALL_PROGRAM) $(srcdir)/$(prog) $(bindir)/$(prog)
+-	$(foreach man,$(men),$(INSTALL_DATA) $(man) $(mandir)/man$(subst .,,$(suffix $(man)))/$(notdir $(man)))
++	$(INSTALL_PROGRAM) $(srcdir)/$(prog) $(DESTDIR)$(bindir)/$(prog)
++	$(foreach man,$(men),$(INSTALL_DATA) $(man) $(DESTDIR)$(mandir)/man$(subst .,,$(suffix $(man)))/$(notdir $(man)))
+ 
+ uninstall:
+ 	$(NORMAL_UNINSTALL)
