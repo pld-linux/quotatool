@@ -29,6 +29,9 @@ sytuacjach.
 %patch0 -p0
 
 %build
+cp -f /usr/share/automake/config.* ./tools
+%{__aclocal}
+%{__autoconf}
 %configure
 %{__make}
 mv -f man/quotatool.8~ man/quotatool.8
