@@ -1,4 +1,5 @@
-Summary:	Utility for setting filesystem quotas from the command line.
+Summary:	Utility for setting filesystem quotas from the command line
+Summary(pl):	Narzêdzie do ustawiania ograniczeñ w systemach plików z linii poleceñ
 Name:		quotatool
 Version:	1.4.0
 Release:	0.1
@@ -15,6 +16,13 @@ Most quota-utilities are interactive, requiring manual intervention
 from the user. Quotatool on the other hand is not, making it suitable
 for use in scripts and other non-interactive situations.
 
+%description -l pl
+Quotatool to narzêdzie do ustawiania ograniczeñ (quot) w systemie
+plików z linii poleceñ. Wiêkszo¶æ narzêdzi do tego jest interaktywna,
+wymagaj±ca rêcznej interwencji u¿ytkownika. Quotatool takie nie jest,
+co czyni je u¿ytecznym w skryptach i innych nieinteraktywnych
+sytuacjach.
+
 %prep
 %setup -q
 %patch0 -p0
@@ -25,7 +33,8 @@ for use in scripts and other non-interactive situations.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/{%{_bindir},%{_mandir}/man8}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man8}
+
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
