@@ -4,11 +4,13 @@ Name:		quotatool
 Version:	1.4.3
 Release:	0.1
 License:	GPL
+Group:		Applications/Console
 Source0:	http://quotatool.ekenberg.se/%{name}-%{version}.tar.gz
 # Source0-md5:	274c64e4fbf2f2029a4195836e8ac8b9
 Patch0:		%{name}-DESTDIR.patch
-Group:		Applications/Console
 URL:		http://quotatool.ekenberg.se/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
