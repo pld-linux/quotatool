@@ -1,12 +1,12 @@
 Summary:	Utility for setting filesystem quotas from the command line
 Summary(pl):	Narzêdzie do ustawiania ograniczeñ w systemach plików z linii poleceñ
 Name:		quotatool
-Version:	1.4.4
-Release:	2
+Version:	1.4.5
+Release:	1
 License:	GPL
 Group:		Applications/Console
 Source0:	http://quotatool.ekenberg.se/%{name}-%{version}.tar.gz
-# Source0-md5:	fd7157943b839960033e028f2e56fee0
+# Source0-md5:	6dd415f8e4f7fa83618ca764f826ef7e
 Patch0:		%{name}-DESTDIR.patch
 URL:		http://quotatool.ekenberg.se/
 BuildRequires:	autoconf
