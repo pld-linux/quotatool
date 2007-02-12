@@ -1,5 +1,5 @@
 Summary:	Utility for setting filesystem quotas from the command line
-Summary(pl):	Narzêdzie do ustawiania ograniczeñ w systemach plików z linii poleceñ
+Summary(pl.UTF-8):   NarzÄ™dzie do ustawiania ograniczeÅ„ w systemach plikÃ³w z linii poleceÅ„
 Name:		quotatool
 Version:	1.4.9
 Release:	1
@@ -19,11 +19,11 @@ Most quota-utilities are interactive, requiring manual intervention
 from the user. Quotatool on the other hand is not, making it suitable
 for use in scripts and other non-interactive situations.
 
-%description -l pl
-Quotatool to narzêdzie do ustawiania ograniczeñ (quot) w systemie
-plików z linii poleceñ. Wiêkszo¶æ narzêdzi do tego jest interaktywna,
-wymagaj±ca rêcznej interwencji u¿ytkownika. Quotatool takie nie jest,
-co czyni je u¿ytecznym w skryptach i innych nieinteraktywnych
+%description -l pl.UTF-8
+Quotatool to narzÄ™dzie do ustawiania ograniczeÅ„ (quot) w systemie
+plikÃ³w z linii poleceÅ„. WiÄ™kszoÅ›Ä‡ narzÄ™dzi do tego jest interaktywna,
+wymagajÄ…ca rÄ™cznej interwencji uÅ¼ytkownika. Quotatool takie nie jest,
+co czyni je uÅ¼ytecznym w skryptach i innych nieinteraktywnych
 sytuacjach.
 
 %prep
