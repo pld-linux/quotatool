@@ -1,5 +1,5 @@
 Summary:	Utility for setting filesystem quotas from the command line
-Summary(pl.UTF-8):   Narzędzie do ustawiania ograniczeń w systemach plików z linii poleceń
+Summary(pl.UTF-8):	Narzędzie do ustawiania ograniczeń w systemach plików z linii poleceń
 Name:		quotatool
 Version:	1.4.9
 Release:	1
