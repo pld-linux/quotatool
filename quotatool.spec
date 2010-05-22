@@ -4,7 +4,7 @@ Name:		quotatool
 Version:	1.4.11
 Release:	1
 License:	GPL
-Group:		Applications/Console
+Group:		Applications/System
 Source0:	http://quotatool.ekenberg.se/%{name}-%{version}.tar.gz
 # Source0-md5:	3925c50b2ecdade601ade6bbfdc048ce
 URL:		http://quotatool.ekenberg.se/
